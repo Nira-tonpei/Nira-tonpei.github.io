@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>tonpei とんぺい</title>
+	<!-- 一番最初にリセットcss -->
+	<link rel="stylesheet" href="css/destyle.css">
+	<!-- Googlefontsの読み込み -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Kiwi+Maru&display=swap" rel="stylesheet">
+	<!-- fontAwesome（ハンバーガーメニュー）の読み込み -->
+	<script src="https://kit.fontawesome.com/e22290ab15.js" crossorigin="anonymous"></script>
+	<!-- 最後にスタイルcss -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="move circle">
+	<div class="animation-bg"></div>
+	<div class="content">
+		<!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+	　　　　　　ヘッダー領域ここから
+	＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ -->
+		<header class="header">
+			<h1 class="site_title">
+				<a href="index.html">tonpei</a>
+			</h1>
+			<button class="nav-btn" onClick="document.querySelector('html').classList.toggle('open')">
+				<i class="fa-solid fa-bars"></i>
+				<i class="fa-solid fa-xmark"></i>
+				<span class="sr-only">menu</span>
+			</button>
+			<nav class="global_navigation">
+				<ul>
+					<li class="c-txt space"><a href="about.html">about</a></li>
+					<li class="c-txt space"><a href="works.html">works</a></li>
+					<li class="c-txt space"><a href="hobby.html">hobby</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+	　　　　　　ヘッダー領域ここまで
+	＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ -->
+
+		<!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+	　　　　　コンテンツ領域ここから
+	＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ -->
+		<div class="main">
+			<article>
+				<div class="text">
+					<h2 class="h2_midasi">はじめまして、tonpeiです</h2>
+					<p class="sub_tx">
+						「あっ、好き」をデザインしています
+					</p>
+				</div>
+				<div class="contents_container">
+					<a href="about.html" class="about_circle">
+						<span><i class="fa-solid fa-egg fuwafuwa"></i><br>about</span>
+					</a>
+					<a href="works.html" class="works_circle">
+						<span><i class="fa-solid fa-computer fuwafuwa"></i><br>works</span>
+					</a>
+					<a href="hobby.html" class="hobby_circle">
+						<span><i class="fa-solid fa-icons fuwafuwa"></i><br>hobby</span>
+					</a>
+					<a href="contact.html" class="contact_circle">
+						<span><i class="fa-brands fa-x-twitter fuwafuwa"></i><br>contact</span>
+					</a>
+				</div><!-- /.contents_container -->
+			</article>
+		</div><!-- /.main -->
+		<!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+	　　　　　コンテンツ領域ここまで
+	＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ -->
+
+		<!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+	　　　　　　　フッター領域ここから
+	＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ -->
+		<footer class="footer">
+			<p>&copy;&nbsp;2025&nbsp;tonpei.&nbsp;&nbsp;All&nbsp;rights&nbsp;reserved.</p>
+		</footer>
+		<!-- ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+	　　　　　　　フッター領域ここまで
+	＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊ -->
+	</div><!-- /.content -->
+	<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+	<script src="js/common.js"></script>
+</body>
+
+</html>
